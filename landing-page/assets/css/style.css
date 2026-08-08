@@ -1,0 +1,39 @@
+/* Photocopy Thùy Linh — style.css */
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:#FAF8F4;color:#16202A;font-family:'Be Vietnam Pro',system-ui,-apple-system,sans-serif;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:#0F3652;text-decoration:none}
+a:hover{color:#C8501E}
+h1,h2,h3,h4,p,ul,ol,figure{margin:0}
+ul{padding:0;list-style:none}
+button,input,textarea,select{font:inherit;color:inherit}
+.btn{transition:transform .16s ease,box-shadow .16s ease,background .16s ease,color .16s ease}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(15,54,82,.18)}
+.btn:active{transform:translateY(0)}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #C8501E;outline-offset:3px;border-radius:6px}
+.card{transition:transform .2s ease,box-shadow .2s ease}
+.card:hover{transform:translateY(-3px);box-shadow:0 16px 36px rgba(15,54,82,.12)}
+.faq-q:hover{background:#F2EEE6}
+.navlink:hover{color:#C8501E}
+.stripe{background-image:repeating-linear-gradient(135deg,#EDE7DB 0 12px,#F6F2EA 12px 24px)}
+@media (max-width:1000px){
+ .hero-grid,.g2{grid-template-columns:1fr!important}
+ .g3{grid-template-columns:repeat(2,1fr)!important}
+ .g4{grid-template-columns:repeat(2,1fr)!important}
+ .sec{padding:64px 0!important}
+ .navlinks{display:none!important}
+ .navtoggle{display:inline-flex!important}
+ .gal{grid-template-columns:repeat(2,1fr)!important}
+}
+@media (max-width:640px){
+ body{font-size:16px}
+ .g3,.g4,.gal{grid-template-columns:1fr!important}
+ .sec{padding:52px 0!important}
+ .wrap{padding-left:18px!important;padding-right:18px!important}
+ .stackbtn{flex-direction:column!important;align-items:stretch!important}
+ .stackbtn>*{justify-content:center!important}
+ .fabbar{display:flex!important}
+ .footpad{padding-bottom:96px!important}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}

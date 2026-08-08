@@ -1,0 +1,45 @@
+NGUỒN HÌNH ẢNH — Photocopy Thùy Linh
+====================================
+
+ẢNH ĐANG DÙNG TRONG TRANG (assets/images/)
+------------------------------------------
+hero-photocopy.webp             597x335, 16 KB
+                                Nguồn: ảnh do chủ website gửi lên (file "images (11).jpg").
+                                Nội dung: hai bàn tay đặt tài liệu lên mặt kính máy photocopy.
+                                Đã thu nhỏ và chuyển sang WebP chất lượng 82.
+
+gallery-dong-gay-lo-xo.webp     447x447, 26 KB
+                                Nguồn: ảnh do chủ website gửi lên (file "images (12).jpg").
+                                Nội dung: tài liệu hội nghị đóng gáy lò xo, bìa in màu.
+
+gallery-ho-so-dong-quyen.webp   475x421, 26 KB
+                                Nguồn: ảnh do chủ website gửi lên (file "images (8).jpg").
+                                Nội dung: chồng hồ sơ dày đã in và đóng quyển.
+
+ẢNH ĐÃ GỬI NHƯNG KHÔNG DÙNG — VÀ LÝ DO
+--------------------------------------
+"images (9).jpg"   Có watermark và logo của một đơn vị khác ("Thiên Phú — Dịch vụ máy
+                   photocopy giá rẻ"). Dùng ảnh này sẽ quảng cáo nhầm cho bên khác.
+
+"images (10).jpg"  Ảnh máy in hiện rõ logo thương hiệu Xerox, nguồn gốc bản quyền không
+                   rõ ràng.
+
+"1786175691429_...jpg"  Ảnh chân dung cá nhân chụp ngoài công viên, không liên quan tới
+                   dịch vụ và chưa rõ có được phép đăng công khai hay không. Nếu đây là
+                   ảnh chủ tiệm và bạn muốn đưa lên trang, hãy báo lại.
+
+CHƯA CÓ — CẦN BỔ SUNG
+---------------------
+logo.png / logo.webp   Không nhận được file logo nào. Trang đang dùng ô chữ "TL" tạm thời
+                       ở thanh điều hướng và footer. Nếu logo có nền trong suốt thì giữ
+                       nguyên alpha (PNG hoặc WebP).
+favicon.png            Cắt vuông 512x512 từ logo.
+Ảnh mặt tiền tiệm      Khung cuối trong phần "Hình ảnh tại tiệm" đang là placeholder sọc.
+
+KHUYẾN NGHỊ
+-----------
+- Ba ảnh đang dùng có độ phân giải thấp (dưới 600px chiều rộng) nên chỉ hiển thị tốt ở
+  kích thước nhỏ. Ảnh chụp thật tại tiệm bằng điện thoại sẽ nét hơn và tạo tin cậy hơn nhiều.
+- Nếu cần thêm ảnh miễn phí, chỉ lấy từ Unsplash, Pexels hoặc Pixabay, tải file gốc về máy
+  rồi bỏ vào assets/images/ — không dán đường dẫn của website khác vào index.html.
+- Nén sang WebP chất lượng 75-82 bằng squoosh.app trước khi đưa vào dự án.
